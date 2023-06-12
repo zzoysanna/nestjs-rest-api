@@ -4,7 +4,7 @@
 
 prod="--configuration=production"
 buildDirName="dist"
-zipFileName="client-app.zip"
+zipFileName="api-app.zip"
 zipPath="$buildDirName/$zipFileName"
 
 npm install

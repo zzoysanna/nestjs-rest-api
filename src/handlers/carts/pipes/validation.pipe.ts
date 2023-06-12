@@ -8,8 +8,6 @@ import { CreateCartDtoValid } from '../dto/create-cart.dto';
 
 @Injectable()
 export class ValidationPipe implements PipeTransform {
-  constructor() {}
-
   transform(
     value: CreateCartDtoValid,
     metadata: ArgumentMetadata,
